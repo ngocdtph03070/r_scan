@@ -17,7 +17,6 @@ A new Flutter project.
   s.dependency 'Flutter'
   s.dependency 'ZBarSDK','~>1.3.1'
   s.dependency 'ZXingObjC','~>3.6.5'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.ios.deployment_target = '12.0'
 
 end
